@@ -14,6 +14,9 @@ module.exports = {
           var titles = {
             '/': '首页',
             '/about': '关于我们',
+            '/products': '产品中心',
+            '/news': '近期活动',
+            '/support': '技术支持',
             '/contact': '联系我们'
           }
           context.html = context.html.replace(
