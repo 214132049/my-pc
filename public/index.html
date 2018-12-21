@@ -11,8 +11,21 @@
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but pc-web doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong>很抱歉，您的网站没有启用JavaScript，请确保允许它开启。</strong>
     </noscript>
+    <!--[if lt IE 9]> 
+      <script type="text/javascript">
+        var str = "您使用的是已经过时的IE浏览器 :(";
+        var str2 = "为了让您获得最佳的使用体验，请升级到<a href='http://windows.microsoft.com/en-US/internet-explorer/download-ie' target='_blank' style='color:blue;'>最新版本IE浏览器</a>,"
+          + "或者使用其他高级浏览器如<a href='https://www.baidu.com/s?ie=UTF-8&wd=%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8' target='_blank' style='color:blue;'>Chrome(谷歌浏览器)</a>,"
+          + "<a href='https://www.baidu.com/s?ie=UTF-8&wd=%E7%81%AB%E7%8B%90%E6%B5%8F%E8%A7%88%E5%99%A8' target='_blank' style='color:blue;'>Firefox(火狐浏览器)</a>";
+        document.writeln("<pre style='text-align:center;color:#fff;background-color:#0cc; height:100%;border:0;position:fixed;top:0;left:0;width:100%;z-index:1234'>" +
+          "<h2 style='padding-top:200px;margin:0'><strong>" + str + "<br/></strong></h2><h2>" +
+          str2 + "</h2><h2 style='margin:0'><strong>如果你的使用的是双核浏览器,请切换到极速模式访问<br/></strong></h2></pre>");
+        document.execCommand("Stop");
+      </script>
+    <![endif]-->
+    
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>
